@@ -1,0 +1,37 @@
+.flip-card {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 auto;
+  vertical-align: center;
+  width: 30%;
+  height: 250px;
+  padding: 10px 20px;
+}
+.front {
+  background:linear-gradient( rgb(120, 120, 184) , rgb(114, 63, 63));
+  border-radius: 4px;
+}
+.back {
+  background: rgb(161, 212, 84);
+  border-radius: 4px;
+}
+
+.arrow {
+  cursor: pointer;
+  margin-top: 6em;
+}
+
+.arrow-left {
+  z-index: 999;
+  position: relative;
+  float: left;
+  
+}
+.arrow-right {
+  z-index: 999;
+  position: relative;
+  top: -250px;
+  float: right;
+  
+}
